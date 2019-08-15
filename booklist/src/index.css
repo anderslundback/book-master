@@ -18,6 +18,7 @@ body {
   width: 90%;
   max-width: 700px;
   color: #eee;
+  opacity: 0.95;
 }
 
 .navbar {
@@ -94,3 +95,29 @@ input[type='submit']{
   color:#8c8883;
 }
 
+.add-book-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #496b47;
+  background-color: #496b47;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+.add-book-button:hover {
+  background-color: #496b47;
+  color: #fff;
+}
+
+
+.add-book-button:active {
+  background-color: #496b47;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
