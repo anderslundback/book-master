@@ -5,11 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #553055;
+  background: url(https://c1.staticflickr.com/9/8078/8314929977_4d7e817d68_h.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .App {
-  background: #4c2a4c;
+  background: #d29653;
   margin: 20px auto;
   width: 90%;
   max-width: 700px;
@@ -19,7 +23,7 @@ body {
 .navbar {
   padding: 10px 20px;
   text-align: center;
-  background: #6d3d6d;
+  background: #496b47;
 }
 
 .navbar h1 {
@@ -36,7 +40,7 @@ body {
 }
 
 .book-list li {
-  background: #6d3d6d;
+  background: #496b47;
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;
@@ -73,7 +77,7 @@ input[type='text']{
   padding: 10px;
   box-sizing: border-box;
   margin: 6px 0;
-  background: #3c1f3c;
+  background: #496b47;
   color: #fff;
   border: 0;
 }
@@ -84,5 +88,9 @@ input[type='submit']{
   border: 0;
   padding: 6px 20px;
   display: block;
+}
+
+::placeholder {
+  color:#8c8883;
 }
 
