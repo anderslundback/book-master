@@ -3,12 +3,12 @@ import { BookContext } from '../contexts/BookContext';
 
 const NavBar = () => {
     const { books } = useContext(BookContext);
-    return ( 
+    return (
         <div className="navbar">
-            <h1>Allie's Reading List</h1>
+            <h1>My Reading List</h1>
             <p>Currently you have {books.length} books to get through...</p>
         </div>
-     );
+    );
 }
- 
+
 export default NavBar;
